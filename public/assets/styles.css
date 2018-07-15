@@ -1,0 +1,22 @@
+body {font-family:Verdana;background-color:#eee;}
+#Master {background-color:white;width:auto;padding-left:5px;padding-right:5px;margin-left:auto;margin-right:auto;
+    border-left:1px solid rgb(210,210,210);border-right:1px solid rgb(210,210,210);margin-top:-10px;}
+
+header {background-color:rgb(0, 0, 0); width:auto;height:115px;margin-bottom:-10px;}
+    #logo{float: left;padding-top:10px;margin-left:10px;}
+    #cart{float: right;padding-top:20px;margin-right: 10px;}
+    header #htext{float: left;margin-left: 11cm;margin-top:20px;font-family: 'Gloria Hallelujah',cursive;font-size: 30px;color:rgb(255, 255, 255);}
+
+#c{text-align: center;font-family: 'Pacifico', cursive; padding-top:10px;font-size: 15px; }
+
+footer {background-color:rgb(0, 0, 0); width:auto;height:40px;}
+    footer #ftext{margin-left: 18cm;font-family: 'Gloria Hallelujah',cursive;font-size: 25px;color:rgb(255, 255, 255);}
+
+#main{ height: 560px;}
+    ul{text-align: center;margin-right: 30px;font-size: 20px;}
+    ul ul:hover{cursor:pointer;;text-decoration: underline;background:black;color: white;font-style: italic}
+
+#cart-table{height:530px;}
+    :hover{text-decoration: line-through;}
+
+h1{text-align: center;}

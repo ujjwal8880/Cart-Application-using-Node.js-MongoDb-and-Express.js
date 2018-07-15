@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Home</title>
+        <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+        <link href="/assets/styles.css" rel="stylesheet" type="text/css"/>
+        <script src="/assets/home.js"></script>
+    </head>
+    <body>
+        <div id="Master">
+            <header>
+                <div id="logo"><a href="home"><img src="/assets/logo.png"></a></div>
+                <span id="htext"><strong>Buy the Latest Music From Our Store!</strong></span>
+                <div id="cart"><a href="cart"><img src="/assets/cart.png" title="Go to Cart"></a></div>
+            </header>
+
+            <div id="c">Click the song to add into your Cart..</div>
+            
+            <div id="main">
+                <ul>
+                    <% for(var i=0;i<datas.length;i++){ %>
+                      <ul><strong> <%= datas[i].item %></strong></ul>
+                    <% } %>
+                </ul>
+            </div>
+            <footer>
+                <span id="ftext"><strong>Thank You!</strong></span>
+            </footer>
+        </div>
+    </body>
+</html>
